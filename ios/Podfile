@@ -29,6 +29,8 @@ target 'githuber' do
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+
   target 'githuberTests' do
     inherit! :search_paths
     # Pods for testing
